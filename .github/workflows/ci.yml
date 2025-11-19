@@ -38,7 +38,6 @@ jobs:
             web/node_modules
           key: ${{ runner.os }}-node20-${{ hashFiles('web/package-lock.json') }}
       - name: Install deps
-        if: steps.cache-npm.outputs.cache-hit != 'true'
         run: npm ci
 
   lint:
