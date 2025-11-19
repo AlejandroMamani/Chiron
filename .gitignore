@@ -5,6 +5,7 @@ web/dist/
 
 # Env
 web/.env
+web/coverage
 
 # Logs
 npm-debug.log*
