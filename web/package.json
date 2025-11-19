@@ -7,6 +7,9 @@
     "test": "vitest --run",
     "test:ui": "vitest",
     "coverage": "vitest --coverage",
+    "test:cov": "vitest --coverage --run",
+    "lint": "echo 'No lint configured for web; skipping'",
+    "typecheck": "tsc --noEmit",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview"
